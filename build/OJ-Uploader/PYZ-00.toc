@@ -1,4 +1,4 @@
-('C:\\Users\\sungwoo\\Desktop\\qw\\build\\OJ-Uploader\\PYZ-00.pyz',
+('C:\\Users\\sungwoo\\Documents\\GitHub\\SejongUniv-OJ-Uploader\\build\\OJ-Uploader\\PYZ-00.pyz',
  [('PyQt5',
    'C:\\Users\\sungwoo\\AppData\\Roaming\\Python\\Python310\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
