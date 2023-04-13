@@ -125,17 +125,17 @@ class FileUploadWidget(QWidget):
         
         # 새 폴더 생성 (충돌을 피하기 위함)
         os.makedirs('TempForUpload', exist_ok=True)
-        os.chdir("TempForUpload")
+        os.chdir('TempForUpload')
 
         for filename in os.listdir(folder_path):  # 압축 파일 압축 풀기
             if filename.endswith('.zip'):
                 file_path = os.path.join(folder_path, filename)
                 extract_zip(file_path, filename[:-4])
-                dirs.append(file_path[:-4])
+                dirs.append(os.path.join(folder_path, 'TempForUpload', filename[:-4]))
 
         # 실습 문제/퀴즈 업로드 시작
         for d in dirs: 
-            if d.endswith("문제"):  # 실습 문제
+            if d.endswith('문제'):  # 실습 문제
                 os.chdir(d)
                 while len(os.listdir()) == 1:  # 상위 폴더가 더 있는 경우
                     os.chdir(os.listdir()[0])
@@ -243,6 +243,6 @@ oj = Ex_oj()
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     login_widget = LoginWidget()
-    # login_widget = FileUploadWidget()  테스트용
+    # login_widget = FileUploadWidget()  # 테스트용
     login_widget.show()
     sys.exit(app.exec_())
