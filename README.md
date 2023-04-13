@@ -1,6 +1,6 @@
 # SejongUniv-OJ-Uploader
 
-SejongUniv-OJ-Uploader는 실습 문제/퀴즈 및 과제를 손쉽게 업로드할 수 있도록 해주는 Windows용 파이썬 응용프로그램입니다. (Mac은 PyQt5 설치 문제로 보류 중입니다.)
+SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴즈를 손쉽게 업로드할 수 있도록 해주는 Windows용 파이썬 응용프로그램입니다. (Mac은 PyQt5 설치 문제로 보류 중입니다.)
 
 ## 설치
 
