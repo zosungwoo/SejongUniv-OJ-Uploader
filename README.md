@@ -32,7 +32,7 @@ SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴�
 ![image](https://user-images.githubusercontent.com/30895117/231803506-4de6dc84-b305-4936-8955-417f6ca4e342.png)
 
 ![제목 없음](https://user-images.githubusercontent.com/30895117/231803993-8dbb0bbd-ce3f-42c6-bea8-356a19c20db4.png)
-> 동그라미 표시된 폴더를 선택!
+> 동그라미 표시된 폴더를 선택! (3개 파일의 상위 폴더)
 
 
 
