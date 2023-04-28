@@ -1,3 +1,4 @@
+
 # SejongUniv-OJ-Uploader
 
 SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴즈를 손쉽게 업로드할 수 있도록 해주는 Windows용 파이썬 응용프로그램입니다. (Mac은 PyQt5 설치 문제로 보류 중입니다.)
@@ -26,19 +27,22 @@ SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴�
 
 <br>
 
-3. 문제에 표시할 과목명과 해당 주차 폴더 선택
+3. `문제에 표시할 과목명`을 입력하고 `해당 주차 폴더 (아래 사진 참고)` 선택
 
 ![image](https://user-images.githubusercontent.com/30895117/231803506-4de6dc84-b305-4936-8955-417f6ca4e342.png)
 
-![제목 없음](https://user-images.githubusercontent.com/30895117/231803993-8dbb0bbd-ce3f-42c6-bea8-356a19c20db4.png)
+> ![제목 없음](https://user-images.githubusercontent.com/30895117/231803993-8dbb0bbd-ce3f-42c6-bea8-356a19c20db4.png)
+> 동그라미 표시된 폴더를 선택!
+
+
 
 <br>
 
-4. Upload 버튼 클릭 (압축 해제 및 실습 문제와 실습 퀴즈, Test-data 업로드 진행)
+4. Upload 버튼 클릭 (압축 해제 및 실습 문제와 실습 퀴즈, Test-data 업로드가 진행됨)
 
 <br>
 
-5. 업로드 완료 시 알림창 노출 (강제 종료 시 재시도)
+5. 업로드 완료 시 알림창 노출
 
 ![image](https://user-images.githubusercontent.com/30895117/231805731-326bbcfd-a47c-4c74-a4d8-ec8ecccc4789.png)
 
@@ -46,7 +50,7 @@ SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴�
 
 <br>
 
-6. OJ 로그인 후 문제와 Test-data 업로드 확인
+6. 프로그램 종료 후 OJ 로그인 후 문제와 Test-data 업로드 확인
 
 ![image](https://user-images.githubusercontent.com/30895117/231806232-45f5c477-432e-4d9b-9ac9-855ecaf4bb68.png)
 
