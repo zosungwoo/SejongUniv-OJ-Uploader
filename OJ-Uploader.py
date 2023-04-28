@@ -119,10 +119,10 @@ class FileUploadWidget(QWidget):
         name = self.name_input.text()  # 과목명
         selection = self.selection_input.currentText()  # 문제 유형
         folder_path = self.path_input.text()  # 폴더 경로
-        week = re.search('\d+', folder_path).group() # N주차
+        week = re.search('\d+', os.path.basename(folder_path)).group() # N주차
         os.chdir(folder_path)
         dirs = []  # 실습문제/퀴즈 폴더
-        
+        msg_box = QMessageBox.information(None, "알림", "완료!\t", QMessageBox.Ok)
         # 새 폴더 생성 (충돌을 피하기 위함)
         os.makedirs('TempForUpload', exist_ok=True)
         os.chdir('TempForUpload')
