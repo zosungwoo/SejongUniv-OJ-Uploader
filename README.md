@@ -54,6 +54,8 @@ SejongUniv-OJ-Uploader는 세종대학교 Ex-OJ 시스템에 실습 문제/퀴�
 
 ![image](https://user-images.githubusercontent.com/30895117/231806232-45f5c477-432e-4d9b-9ac9-855ecaf4bb68.png)
 
+> Contest는 직접 등록하여야 함!
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
